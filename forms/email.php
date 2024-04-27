@@ -22,7 +22,7 @@ if(isset($_POST['name'], $_POST['email'], $_POST['subject'], $_POST['message']))
   if(mail($to, $subject, $message, $headers)) {
     echo "Email envoyé avec succès";
   } else {
-    echo "Échec de l'envoi de l'email";
+    echo "Échec de l'envoi de l'email ";
   }
 } else {
   // Displaying an error message if required fields are missing
