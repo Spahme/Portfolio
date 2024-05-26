@@ -33,6 +33,15 @@ mes ajouts
 /**
  * logiciel Slider
  */
+
+function redirectAndAlert(message) {
+    alert(message);
+    window.location.href = "../index.html#contact";
+}
+
+
+
+
 new Swiper('.logiciel-slider', {
     speed: 400,
     loop: true,
